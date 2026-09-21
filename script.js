@@ -41,8 +41,8 @@ let puntaje = 0;
 // agregue esta 
 let detalleRespuestas = [];
 
-let tiempo = 240;          // segundos por pregunta
-let tiempoRestante = 240;
+let tiempo = 300;          // segundos por pregunta
+let tiempoRestante = 300;
 let temporizador = null;
 
 
