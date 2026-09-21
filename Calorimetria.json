@@ -1,3 +1,4 @@
+[
 {
   "evaluacion": "Calorimetria",
   "area": "Fisica",
@@ -142,6 +143,7 @@
         "D": "35,0 °C"
       },
       "respuesta_correcta": "B"
+      ]
     }
   ]
 }
