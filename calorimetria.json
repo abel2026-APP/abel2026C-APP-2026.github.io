@@ -1,0 +1,102 @@
+[
+  {
+    "texto": "Se introducen 300 g de cobre a 90 °C en un recipiente que contiene 500 g de agua a 20 °C. Si el calor específico del cobre es 0,092 cal/g°C, despreciando el calor absorbido por el recipiente, ¿cuál es aproximadamente la temperatura de equilibrio?\n\nEcuación de apoyo: mCu·cCu·(TCu − Te) = magua·cagua·(Te − Tagua)",
+    "opciones": [
+      "23,7 °C",
+      "28,4 °C",
+      "35,2 °C",
+      "42,6 °C"
+    ],
+    "correcta": 0
+  },
+  {
+    "texto": "Un bloque de aluminio de 200 g se encuentra a 60 °C y se introduce en 400 g de agua a 20 °C. Si cAl = 0,217 cal/g°C, ¿cuál será aproximadamente la temperatura de equilibrio?\n\nEcuación de apoyo: mAl·cAl·(TAl − Te) = magua·cagua·(Te − Tagua)",
+    "opciones": [
+      "21,8 °C",
+      "23,9 °C",
+      "27,5 °C",
+      "32,4 °C"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Un cuerpo de 100 g recibe 600 cal y su temperatura aumenta de 20 °C a 50 °C. ¿Cuál es el calor específico del cuerpo?\n\nEcuación de apoyo: Q = m·c·ΔT → c = Q / [m·(Tf − Ti)]",
+    "opciones": [
+      "0,10 cal/g°C",
+      "0,20 cal/g°C",
+      "0,30 cal/g°C",
+      "0,50 cal/g°C"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Un bloque de cobre de 150 g se enfría desde 80 °C hasta 30 °C. Si su calor específico es 0,092 cal/g°C, ¿qué cantidad de calor cede?\n\nEcuación de apoyo: |Q| = m·c·(Ti − Tf)",
+    "opciones": [
+      "460 cal",
+      "690 cal",
+      "920 cal",
+      "1.380 cal"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Un calorímetro de cobre de 100 g contiene 200 g de agua. Ambos se encuentran inicialmente a 20 °C. Si la temperatura final es 25 °C, ¿cuánto calor absorben conjuntamente el agua y el calorímetro? Considere cCu = 0,092 cal/g°C.\n\nEcuación de apoyo: Qtotal = magua·cagua·ΔT + mCu·cCu·ΔT",
+    "opciones": [
+      "546 cal",
+      "1.000 cal",
+      "1.046 cal",
+      "1.500 cal"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Un bloque metálico de 80 g, inicialmente a 100 °C, se introduce en 200 g de agua a 20 °C. La temperatura de equilibrio es 24 °C. Despreciando el calor absorbido por el recipiente, ¿cuál es aproximadamente el calor específico del metal?\n\nEcuación de apoyo: cm = [ma·ca·(Te − Ta)] / [mm·(Tm − Te)]",
+    "opciones": [
+      "0,066 cal/g°C",
+      "0,132 cal/g°C",
+      "0,217 cal/g°C",
+      "0,500 cal/g°C"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Un bloque de platino de 50 g se retira de un horno y se introduce en 300 g de agua a 10 °C. La temperatura de equilibrio es 12 °C. Si cPt = 0,035 cal/g°C y se desprecia el calor absorbido por el calorímetro, ¿cuál era aproximadamente la temperatura inicial del platino?\n\nEcuación de apoyo: mPt·cPt·(TPt − Te) = magua·cagua·(Te − Tagua)",
+    "opciones": [
+      "120 °C",
+      "200 °C",
+      "355 °C",
+      "500 °C"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Cuando un cuerpo caliente se introduce en agua fría dentro de un calorímetro ideal, al alcanzarse el equilibrio térmico se cumple que:\n\nEcuación de apoyo: Qcedido + Qabsorbido = 0 o |Qcedido| = |Qabsorbido|",
+    "opciones": [
+      "El cuerpo caliente no pierde energía.",
+      "El agua siempre llega a 100 °C.",
+      "El calor cedido por el cuerpo caliente es igual al calor absorbido por el cuerpo frío.",
+      "Los cuerpos conservan sus temperaturas iniciales."
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Se tienen 250 g de agua a 18 °C. Si el agua absorbe 2.000 cal, ¿cuál será su temperatura final? Considere cagua = 1 cal/g°C.\n\nEcuación de apoyo: Q = m·c·(Tf − Ti) → Tf = Ti + Q/(m·c)",
+    "opciones": [
+      "20 °C",
+      "24 °C",
+      "26 °C",
+      "30 °C"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Un bloque de aluminio de 120 g a 70 °C se coloca en 300 g de agua a 20 °C. Si cAl = 0,217 cal/g°C, ¿cuál es aproximadamente la temperatura de equilibrio térmico?\n\nEcuación de apoyo: mAl·cAl·(TAl − Te) = magua·cagua·(Te − Tagua)",
+    "opciones": [
+      "21,5 °C",
+      "24,0 °C",
+      "28,7 °C",
+      "35,0 °C"
+    ],
+    "correcta": 1
+  }
+]
