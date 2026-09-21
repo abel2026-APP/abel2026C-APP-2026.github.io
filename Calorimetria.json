@@ -1,0 +1,147 @@
+{
+  "evaluacion": "Calorimetria",
+  "area": "Fisica",
+  "cantidad_preguntas": 10,
+  "preguntas": [
+    {
+      "id": 1,
+      "area": "Fisica",
+      "tema": "Calorimetria",
+      "pregunta": "Se introducen 300 g de cobre a 90 °C en un recipiente que contiene 500 g de agua a 20 °C. Si el calor específico del cobre es 0,092 cal/g°C, despreciando el calor absorbido por el recipiente, ¿cuál es aproximadamente la temperatura de equilibrio?",
+      "ecuacion_apoyo": "mCu·cCu·(TCu − Te) = magua·cagua·(Te − Tagua)",
+      "opciones": {
+        "A": "23,7 °C",
+        "B": "28,4 °C",
+        "C": "35,2 °C",
+        "D": "42,6 °C"
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 2,
+      "area": "Fisica",
+      "tema": "Calorimetria",
+      "pregunta": "Un bloque de aluminio de 200 g se encuentra a 60 °C y se introduce en 400 g de agua a 20 °C. Si cAl = 0,217 cal/g°C, ¿cuál será aproximadamente la temperatura de equilibrio?",
+      "ecuacion_apoyo": "mAl·cAl·(TAl − Te) = magua·cagua·(Te − Tagua)",
+      "opciones": {
+        "A": "21,8 °C",
+        "B": "23,9 °C",
+        "C": "27,5 °C",
+        "D": "32,4 °C"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 3,
+      "area": "Fisica",
+      "tema": "Calorimetria",
+      "pregunta": "Un cuerpo de 100 g recibe 600 cal y su temperatura aumenta de 20 °C a 50 °C. ¿Cuál es el calor específico del cuerpo?",
+      "ecuacion_apoyo": "Q = m·c·ΔT → c = Q / [m·(Tf − Ti)]",
+      "opciones": {
+        "A": "0,10 cal/g°C",
+        "B": "0,20 cal/g°C",
+        "C": "0,30 cal/g°C",
+        "D": "0,50 cal/g°C"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 4,
+      "area": "Fisica",
+      "tema": "Calorimetria",
+      "pregunta": "Un bloque de cobre de 150 g se enfría desde 80 °C hasta 30 °C. Si su calor específico es 0,092 cal/g°C, ¿qué cantidad de calor cede?",
+      "ecuacion_apoyo": "|Q| = m·c·(Ti − Tf)",
+      "opciones": {
+        "A": "460 cal",
+        "B": "690 cal",
+        "C": "920 cal",
+        "D": "1.380 cal"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 5,
+      "area": "Fisica",
+      "tema": "Calorimetria",
+      "pregunta": "Un calorímetro de cobre de 100 g contiene 200 g de agua. Ambos se encuentran inicialmente a 20 °C. Si la temperatura final es 25 °C, ¿cuánto calor absorben conjuntamente el agua y el calorímetro? Considere cCu = 0,092 cal/g°C.",
+      "ecuacion_apoyo": "Qtotal = magua·cagua·ΔT + mCu·cCu·ΔT",
+      "opciones": {
+        "A": "546 cal",
+        "B": "1.000 cal",
+        "C": "1.046 cal",
+        "D": "1.500 cal"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 6,
+      "area": "Fisica",
+      "tema": "Calorimetria",
+      "pregunta": "Un bloque metálico de 80 g, inicialmente a 100 °C, se introduce en 200 g de agua a 20 °C. La temperatura de equilibrio es 24 °C. Despreciando el calor absorbido por el recipiente, ¿cuál es aproximadamente el calor específico del metal?",
+      "ecuacion_apoyo": "cm = [ma·ca·(Te − Ta)] / [mm·(Tm − Te)]",
+      "opciones": {
+        "A": "0,066 cal/g°C",
+        "B": "0,132 cal/g°C",
+        "C": "0,217 cal/g°C",
+        "D": "0,500 cal/g°C"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 7,
+      "area": "Fisica",
+      "tema": "Calorimetria",
+      "pregunta": "Un bloque de platino de 50 g se retira de un horno y se introduce en 300 g de agua a 10 °C. La temperatura de equilibrio es 12 °C. Si cPt = 0,035 cal/g°C y se desprecia el calor absorbido por el calorímetro, ¿cuál era aproximadamente la temperatura inicial del platino?",
+      "ecuacion_apoyo": "mPt·cPt·(TPt − Te) = magua·cagua·(Te − Tagua)",
+      "opciones": {
+        "A": "120 °C",
+        "B": "200 °C",
+        "C": "355 °C",
+        "D": "500 °C"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 8,
+      "area": "Fisica",
+      "tema": "Calorimetria",
+      "pregunta": "Cuando un cuerpo caliente se introduce en agua fría dentro de un calorímetro ideal, al alcanzarse el equilibrio térmico se cumple que:",
+      "ecuacion_apoyo": "Qcedido + Qabsorbido = 0 o |Qcedido| = |Qabsorbido|",
+      "opciones": {
+        "A": "El cuerpo caliente no pierde energía.",
+        "B": "El agua siempre llega a 100 °C.",
+        "C": "El calor cedido por el cuerpo caliente es igual al calor absorbido por el cuerpo frío.",
+        "D": "Los cuerpos conservan sus temperaturas iniciales."
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 9,
+      "area": "Fisica",
+      "tema": "Calorimetria",
+      "pregunta": "Se tienen 250 g de agua a 18 °C. Si el agua absorbe 2.000 cal, ¿cuál será su temperatura final? Considere cagua = 1 cal/g°C.",
+      "ecuacion_apoyo": "Q = m·c·(Tf − Ti) → Tf = Ti + Q/(m·c)",
+      "opciones": {
+        "A": "20 °C",
+        "B": "24 °C",
+        "C": "26 °C",
+        "D": "30 °C"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 10,
+      "area": "Fisica",
+      "tema": "Calorimetria",
+      "pregunta": "Un bloque de aluminio de 120 g a 70 °C se coloca en 300 g de agua a 20 °C. Si cAl = 0,217 cal/g°C, ¿cuál es aproximadamente la temperatura de equilibrio térmico?",
+      "ecuacion_apoyo": "mAl·cAl·(TAl − Te) = magua·cagua·(Te − Tagua)",
+      "opciones": {
+        "A": "21,5 °C",
+        "B": "24,0 °C",
+        "C": "28,7 °C",
+        "D": "35,0 °C"
+      },
+      "respuesta_correcta": "B"
+    }
+  ]
+}
