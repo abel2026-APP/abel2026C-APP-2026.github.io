@@ -1,0 +1,152 @@
+[
+  {
+    "texto": "La trayectoria que describe un objeto durante un movimiento parabólico corresponde a:",
+    "opciones": [
+      "Una circunferencia.",
+      "Una línea recta.",
+      "Una parábola.",
+      "Una elipse."
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "En un lanzamiento parabólico, la velocidad inicial puede descomponerse en:",
+    "opciones": [
+      "Fuerza y aceleración.",
+      "Componente horizontal y componente vertical.",
+      "Masa y peso.",
+      "Distancia y tiempo."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "De acuerdo con la guía, cuando un proyectil se lanza con un ángulo de 45°, se obtiene:",
+    "opciones": [
+      "El alcance horizontal máximo.",
+      "La velocidad vertical máxima.",
+      "Una trayectoria rectilínea.",
+      "Una aceleración igual a cero."
+    ],
+    "correcta": 0
+  },
+  {
+    "texto": "Dos proyectiles son lanzados con la misma rapidez inicial, uno con un ángulo de 30° y otro con 60°. Según el material estudiado, sus alcances horizontales serán:",
+    "opciones": [
+      "Diferentes porque 60° es el doble de 30°.",
+      "Iguales.",
+      "Cero.",
+      "El de 30° será siempre el doble."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "En el movimiento parabólico, la aceleración de la gravedad actúa:",
+    "opciones": [
+      "Horizontalmente.",
+      "Verticalmente.",
+      "En la misma dirección de la velocidad horizontal.",
+      "Únicamente cuando el objeto comienza a caer."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "¿Cuál de las siguientes corresponde a una magnitud vectorial?",
+    "opciones": [
+      "Temperatura.",
+      "Masa.",
+      "Fuerza.",
+      "Tiempo."
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Para definir correctamente un vector se deben considerar características como:",
+    "opciones": [
+      "Masa, volumen y densidad.",
+      "Módulo, dirección y sentido.",
+      "Tiempo, temperatura y longitud.",
+      "Rapidez, masa y volumen."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Un vector posee componentes Ax = 3 y Ay = 4. ¿Cuál es el módulo del vector?\n\nEcuación de apoyo: |A| = √(Ax² + Ay²)",
+    "opciones": [
+      "3",
+      "4",
+      "5",
+      "7"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Si un vector tiene componentes (4,3) y otro tiene componentes (2,5), el vector resultante de su suma es:\n\nEcuación de apoyo: R = (Ax + Bx, Ay + By)",
+    "opciones": [
+      "(2,2)",
+      "(6,8)",
+      "(8,15)",
+      "(6,2)"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "El vector nulo se caracteriza porque:",
+    "opciones": [
+      "Tiene módulo igual a 1.",
+      "Tiene solamente componente horizontal.",
+      "Su origen y extremo coinciden y su módulo es cero.",
+      "Siempre apunta hacia abajo."
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "La expresión matemática utilizada para relacionar fuerza, masa y aceleración es:",
+    "opciones": [
+      "F = m + a",
+      "F = m · a",
+      "F = m / a",
+      "F = a / m"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Si sobre un cuerpo de 5 kg actúa una fuerza resultante de 20 N, ¿cuál es su aceleración?\n\nEcuación de apoyo: a = F / m",
+    "opciones": [
+      "4 m/s²",
+      "5 m/s²",
+      "15 m/s²",
+      "100 m/s²"
+    ],
+    "correcta": 0
+  },
+  {
+    "texto": "Una persona tiene una masa de 80 kg. Utilizando g = 9,8 m/s², ¿cuál es aproximadamente su peso?\n\nEcuación de apoyo: P = m · g",
+    "opciones": [
+      "8,16 N",
+      "80 N",
+      "784 N",
+      "8000 N"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Dos estudiantes ejercen fuerzas sobre una caja en la misma dirección pero en sentidos opuestos. Uno hala con 60 N hacia la derecha y el otro con 40 N hacia la izquierda. La fuerza resultante es:\n\nEcuación de apoyo: FR = 60 N − 40 N",
+    "opciones": [
+      "100 N hacia la derecha.",
+      "20 N hacia la derecha.",
+      "20 N hacia la izquierda.",
+      "100 N hacia la izquierda."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "La fuerza de rozamiento aparece cuando:",
+    "opciones": [
+      "Dos cuerpos están en contacto.",
+      "Un cuerpo se encuentra únicamente en caída libre.",
+      "No existe contacto entre los cuerpos.",
+      "La masa del objeto es igual a cero."
+    ],
+    "correcta": 0
+  }
+]
