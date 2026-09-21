@@ -248,7 +248,7 @@ document.querySelectorAll(".btnTema").forEach(btn => {
       reiniciar(); // inicia evaluación
 
     } catch (error) {
-      alert("Error al cargar el archivo de preguntas");
+      alert("ERROR REAL: " + error.message);
       console.error(error);
     }
 
