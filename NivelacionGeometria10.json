@@ -1,0 +1,102 @@
+[
+  {
+    "pregunta": "En la ecuación de una recta y = 3x + 5, ¿cuál es la pendiente?",
+    "opciones": [
+      "A. 5",
+      "B. 3",
+      "C. -3",
+      "D. 8"
+    ],
+    "respuesta": "B"
+  },
+  {
+    "pregunta": "En la ecuación y = -2x + 4, el número 4 representa:",
+    "opciones": [
+      "A. La pendiente de la recta.",
+      "B. El valor de x.",
+      "C. El punto donde la recta corta el eje Y.",
+      "D. El punto donde la recta corta el eje X."
+    ],
+    "respuesta": "C"
+  },
+  {
+    "pregunta": "Una recta pasa por los puntos A(1,2) y B(4,8). ¿Cuál es su pendiente? Ecuación de apoyo: m = (y2 - y1) / (x2 - x1)",
+    "opciones": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 6"
+    ],
+    "respuesta": "B"
+  },
+  {
+    "pregunta": "Una recta tiene pendiente m = 2 y corta el eje Y en b = 3. ¿Cuál es su ecuación?",
+    "opciones": [
+      "A. y = 3x + 2",
+      "B. y = 2x - 3",
+      "C. y = 2x + 3",
+      "D. y = -2x + 3"
+    ],
+    "respuesta": "C"
+  },
+  {
+    "pregunta": "¿Qué ocurre con una recta cuando su pendiente es negativa?",
+    "opciones": [
+      "A. La recta sube de izquierda a derecha.",
+      "B. La recta baja de izquierda a derecha.",
+      "C. La recta es horizontal.",
+      "D. La recta es vertical."
+    ],
+    "respuesta": "B"
+  },
+  {
+    "pregunta": "Una recta pasa por los puntos A(0,2) y B(2,6). ¿Cuál es la ecuación de la recta? Ecuación de apoyo: m = (6 - 2) / (2 - 0)",
+    "opciones": [
+      "A. y = 2x + 2",
+      "B. y = 2x - 2",
+      "C. y = 4x + 2",
+      "D. y = x + 2"
+    ],
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "Observa la ecuación y = -3x + 6. ¿En qué punto corta la recta al eje Y?",
+    "opciones": [
+      "A. (0,6)",
+      "B. (6,0)",
+      "C. (0,-3)",
+      "D. (-3,0)"
+    ],
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "Una recta pasa por los puntos A(2,5) y B(6,5). ¿Cuál es su pendiente?",
+    "opciones": [
+      "A. 5",
+      "B. 1",
+      "C. 0",
+      "D. -1"
+    ],
+    "respuesta": "C"
+  },
+  {
+    "pregunta": "Un taxi cobra una tarifa fija de $5.000 y adicionalmente $2.000 por cada kilómetro recorrido. Si x representa los kilómetros recorridos y y el costo total, ¿cuál ecuación representa esta situación?",
+    "opciones": [
+      "A. y = 5000x + 2000",
+      "B. y = 2000x + 5000",
+      "C. y = 2000x - 5000",
+      "D. y = 5000x"
+    ],
+    "respuesta": "B"
+  },
+  {
+    "pregunta": "La tabla presenta los valores: x = 0, 1, 2, 3; y = 1, 3, 5, 7. ¿Cuál ecuación representa esta relación?",
+    "opciones": [
+      "A. y = x + 1",
+      "B. y = 2x + 1",
+      "C. y = 3x + 1",
+      "D. y = 2x - 1"
+    ],
+    "respuesta": "B"
+  }
+]
