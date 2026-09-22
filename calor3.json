@@ -1,0 +1,102 @@
+[
+  {
+    "texto": "Se calientan 200 g de agua desde 20 °C hasta 35 °C. Si c = 1 cal/(g·°C), ¿cuánto calor absorbe?\nEcuación de apoyo: Q = m·c·(Tf − Ti)",
+    "opciones": [
+      "1.500 cal",
+      "3.000 cal",
+      "4.000 cal",
+      "7.000 cal"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Un bloque de aluminio de 150 g aumenta su temperatura de 20 °C a 60 °C. Si c = 0,22 cal/(g·°C), ¿qué cantidad de calor recibe?\nEcuación de apoyo: Q = m·c·ΔT",
+    "opciones": [
+      "330 cal",
+      "660 cal",
+      "1.320 cal",
+      "2.640 cal"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Un bloque de cobre de 100 g se enfría desde 80 °C hasta 30 °C. Si c = 0,093 cal/(g·°C), ¿cuánto calor cede aproximadamente?\nEcuación de apoyo: |Q| = m·c·(Ti − Tf)",
+    "opciones": [
+      "93 cal",
+      "279 cal",
+      "465 cal",
+      "930 cal"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Se mezclan 200 g de agua a 80 °C con 300 g de agua a 20 °C, sin pérdidas de calor. ¿Cuál es la temperatura final de equilibrio?\nEcuación de apoyo: Tf = (m1·T1 + m2·T2)/(m1 + m2)",
+    "opciones": [
+      "32 °C",
+      "40 °C",
+      "44 °C",
+      "50 °C"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "¿Cuánto calor se necesita para fundir completamente 100 g de hielo que ya está a 0 °C? Considera Lf = 80 cal/g.\nEcuación de apoyo: Q = m·Lf",
+    "opciones": [
+      "80 cal",
+      "800 cal",
+      "8.000 cal",
+      "18.000 cal"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Se condensan 50 g de vapor de agua a 100 °C, sin enfriar el agua resultante. Si Lv = 540 cal/g, ¿cuánto calor libera?\nEcuación de apoyo: |Q| = m·Lv",
+    "opciones": [
+      "5.400 cal",
+      "10.800 cal",
+      "27.000 cal",
+      "54.000 cal"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Un metal de 400 g absorbe 2.400 cal y su temperatura aumenta de 20 °C a 50 °C. ¿Cuál es su calor específico?\nEcuación de apoyo: c = Q/[m·(Tf − Ti)]",
+    "opciones": [
+      "0,10 cal/(g·°C)",
+      "0,20 cal/(g·°C)",
+      "0,30 cal/(g·°C)",
+      "0,50 cal/(g·°C)"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Una muestra de 250 g de agua recibe 5.000 cal. Si inicialmente estaba a 15 °C y c = 1 cal/(g·°C), ¿cuál es su temperatura final?\nEcuación de apoyo: Tf = Ti + Q/(m·c)",
+    "opciones": [
+      "20 °C",
+      "30 °C",
+      "35 °C",
+      "45 °C"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Una pieza de hierro de 100 g se enfría desde 100 °C hasta 20 °C. Si c = 0,11 cal/(g·°C), ¿cuánto calor libera?\nEcuación de apoyo: |Q| = m·c·(Ti − Tf)",
+    "opciones": [
+      "88 cal",
+      "440 cal",
+      "880 cal",
+      "1.100 cal"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Se mezclan 100 g de agua a 90 °C con 300 g de agua a 10 °C en un recipiente ideal que no absorbe calor. ¿Cuál es la temperatura de equilibrio?\nEcuación de apoyo: Tf = (m1·T1 + m2·T2)/(m1 + m2)",
+    "opciones": [
+      "20 °C",
+      "30 °C",
+      "40 °C",
+      "50 °C"
+    ],
+    "correcta": 1
+  }
+]
