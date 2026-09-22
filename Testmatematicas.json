@@ -1,0 +1,152 @@
+[
+  {
+    "texto": "La sucesión 4, 7, 10, 13, ... continúa con el término:",
+    "opciones": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Si aₙ = 3n − 2 y n comienza en 1, ¿cuál es el quinto término?",
+    "opciones": [
+      "11",
+      "13",
+      "15",
+      "17"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "¿Cuál es el término general de la sucesión 5, 10, 15, 20, ... para n = 1, 2, 3, ...?",
+    "opciones": [
+      "aₙ = n + 5",
+      "aₙ = 5n",
+      "aₙ = 5(n − 1)",
+      "aₙ = n² + 4"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "La sucesión 2, 6, 18, 54, ... es geométrica. ¿Cuál es su razón?",
+    "opciones": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "¿Cuál es el sexto término de la sucesión aₙ = 2ⁿ, para n = 1, 2, 3, ...?",
+    "opciones": [
+      "12",
+      "32",
+      "64",
+      "128"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "En una sucesión aritmética, el primer término es 7 y la diferencia común es 4. ¿Cuál es el cuarto término?",
+    "opciones": [
+      "15",
+      "17",
+      "19",
+      "23"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "¿Cuál es la suma de los primeros cinco términos de la sucesión 2, 4, 6, 8, 10, ...?",
+    "opciones": [
+      "20",
+      "25",
+      "30",
+      "40"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "La sucesión aₙ = 10 − 2n, con n = 1, 2, 3, ..., es:",
+    "opciones": [
+      "Monótona creciente",
+      "Monótona decreciente",
+      "Constante",
+      "Alternante"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "La sucesión aₙ = (−1)ⁿ, con n = 1, 2, 3, ..., es:",
+    "opciones": [
+      "Constante",
+      "Estrictamente creciente",
+      "Alternante entre −1 y 1",
+      "Estrictamente decreciente"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "¿Cuál de estas afirmaciones es correcta para la sucesión aₙ = 1/n, con n ≥ 1?",
+    "opciones": [
+      "Todos sus términos son negativos",
+      "Está acotada entre 0 y 1, incluyendo 1",
+      "Crece sin cota superior",
+      "Es constante"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "¿Cuál es el límite de aₙ = 5/n cuando n tiende a infinito?",
+    "opciones": [
+      "0",
+      "1",
+      "5",
+      "+∞"
+    ],
+    "correcta": 0
+  },
+  {
+    "texto": "¿Cuál es el límite de aₙ = (3n + 1)/(n + 2) cuando n tiende a infinito?",
+    "opciones": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correcta": 3
+  },
+  {
+    "texto": "¿Cuál de las siguientes sucesiones diverge hacia +∞ cuando n aumenta indefinidamente?",
+    "opciones": [
+      "aₙ = 1/n",
+      "aₙ = 2/n",
+      "aₙ = n²",
+      "aₙ = 1/(n + 1)"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "En la sucesión geométrica 3, 6, 12, 24, ..., ¿cuál es el quinto término?",
+    "opciones": [
+      "30",
+      "36",
+      "42",
+      "48"
+    ],
+    "correcta": 3
+  },
+  {
+    "texto": "Una sucesión tiene término general aₙ = n/(n + 1). ¿A qué valor se acercan sus términos cuando n tiende a infinito?",
+    "opciones": [
+      "0",
+      "1",
+      "2",
+      "+∞"
+    ],
+    "correcta": 1
+  }
+]
