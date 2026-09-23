@@ -1,0 +1,152 @@
+[
+  {
+    "texto": "Un balón se lanza oblicuamente y se desprecia la resistencia del aire. ¿Qué forma tiene su trayectoria?",
+    "opciones": [
+      "Una línea recta",
+      "Una parábola",
+      "Una circunferencia",
+      "Una espiral"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Un proyectil se lanza a 20 m/s con un ángulo de 30° respecto de la horizontal. ¿Cuál es su velocidad horizontal inicial?\nEcuación de apoyo: Vx = V0·cos(θ); cos 30° ≈ 0,866",
+    "opciones": [
+      "10 m/s",
+      "17,32 m/s",
+      "20 m/s",
+      "5 m/s"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Un proyectil se lanza a 20 m/s con un ángulo de 30°. ¿Cuál es su velocidad vertical inicial?\nEcuación de apoyo: Vy = V0·sen(θ); sen 30° = 0,5",
+    "opciones": [
+      "20 m/s",
+      "17,32 m/s",
+      "10 m/s",
+      "40 m/s"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "En el punto más alto de la trayectoria de un proyectil, sin resistencia del aire, ¿qué sucede con su velocidad vertical?",
+    "opciones": [
+      "Es cero",
+      "Es igual a la velocidad horizontal",
+      "Es máxima",
+      "Es igual a la gravedad"
+    ],
+    "correcta": 0
+  },
+  {
+    "texto": "Dos proyectiles se lanzan con igual rapidez desde el suelo y aterrizan a la misma altura, uno a 35° y otro a 55°. Sin resistencia del aire, ¿cómo son sus alcances horizontales?",
+    "opciones": [
+      "El de 55° es mayor",
+      "El de 35° es mayor",
+      "Son iguales",
+      "Ambos son cero"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Una fuerza de 12 N actúa hacia el este y otra de 5 N hacia el norte. ¿Cuál es el módulo de la fuerza resultante?\nEcuación de apoyo: R = √(Fx² + Fy²)",
+    "opciones": [
+      "7 N",
+      "13 N",
+      "17 N",
+      "60 N"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Un vector tiene componentes Ax = −3 y Ay = 4. ¿Cuál es su módulo?\nEcuación de apoyo: |A| = √(Ax² + Ay²)",
+    "opciones": [
+      "1",
+      "5",
+      "7",
+      "−5"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Se suman los vectores A = (2, −1) y B = (−4, 5). ¿Cuál es el vector resultante?\nEcuación de apoyo: R = (Ax + Bx, Ay + By)",
+    "opciones": [
+      "(6, −6)",
+      "(−2, 4)",
+      "(−2, −4)",
+      "(2, 4)"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "¿Cuál de las siguientes magnitudes es vectorial?",
+    "opciones": [
+      "Energía",
+      "Temperatura",
+      "Desplazamiento",
+      "Tiempo"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Dos fuerzas de 15 N hacia la derecha y 9 N hacia la izquierda actúan sobre una caja. ¿Cuál es la fuerza resultante?",
+    "opciones": [
+      "24 N hacia la izquierda",
+      "6 N hacia la izquierda",
+      "6 N hacia la derecha",
+      "24 N hacia la derecha"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Un pasajero se inclina hacia adelante cuando un autobús frena bruscamente. ¿Qué ley de Newton explica este comportamiento?",
+    "opciones": [
+      "Primera ley o ley de inercia",
+      "Segunda ley",
+      "Tercera ley",
+      "Ley de gravitación universal"
+    ],
+    "correcta": 0
+  },
+  {
+    "texto": "Una fuerza neta de 36 N actúa sobre un cuerpo de 6 kg. ¿Cuál es su aceleración?\nEcuación de apoyo: F = m·a",
+    "opciones": [
+      "216 m/s²",
+      "30 m/s²",
+      "6 m/s²",
+      "0,17 m/s²"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Un objeto de masa 4 kg acelera a 3 m/s². ¿Cuál es la fuerza neta que actúa sobre él?\nEcuación de apoyo: F = m·a",
+    "opciones": [
+      "1,33 N",
+      "7 N",
+      "12 N",
+      "24 N"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Al caminar, una persona empuja el suelo hacia atrás y el suelo la impulsa hacia adelante. ¿Qué ley explica este fenómeno?",
+    "opciones": [
+      "Primera ley",
+      "Segunda ley",
+      "Tercera ley: acción y reacción",
+      "Ley de conservación de la energía"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Una caja de 10 kg recibe una fuerza horizontal de 50 N hacia la derecha y una fuerza de rozamiento de 20 N hacia la izquierda. ¿Cuál es su aceleración?\nEcuaciones de apoyo: Fresultante = 50 − 20; a = Fresultante/m",
+    "opciones": [
+      "2 m/s² hacia la izquierda",
+      "3 m/s² hacia la derecha",
+      "5 m/s² hacia la derecha",
+      "7 m/s² hacia la derecha"
+    ],
+    "correcta": 1
+  }
+]
