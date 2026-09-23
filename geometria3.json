@@ -1,0 +1,102 @@
+[
+  {
+    "texto": "En la ecuación de una recta y = 3x + 5, ¿cuál es la pendiente?",
+    "opciones": [
+      "5",
+      "3",
+      "-3",
+      "8"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "En la ecuación y = -2x + 4, ¿qué representa el número 4?",
+    "opciones": [
+      "La pendiente de la recta.",
+      "El valor de x.",
+      "El punto donde la recta corta el eje Y.",
+      "El punto donde la recta corta el eje X."
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Una recta pasa por los puntos A(1,2) y B(4,8). ¿Cuál es su pendiente? Ecuación de apoyo: m = (y₂ − y₁)/(x₂ − x₁).",
+    "opciones": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Una recta tiene pendiente m = 2 y corta el eje Y en b = 3. ¿Cuál es su ecuación? Ecuación de apoyo: y = mx + b.",
+    "opciones": [
+      "y = 3x + 2",
+      "y = 2x − 3",
+      "y = 2x + 3",
+      "y = −2x + 3"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "¿Cuál es la pendiente de la recta que pasa por los puntos (2,3) y (6,11)? Ecuación de apoyo: m = (y₂ − y₁)/(x₂ − x₁).",
+    "opciones": [
+      "1",
+      "2",
+      "4",
+      "8"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "¿Cuál es la ecuación de una recta con pendiente m = −1 que pasa por el punto (0,4)? Ecuación de apoyo: y = mx + b.",
+    "opciones": [
+      "y = x + 4",
+      "y = −x − 4",
+      "y = −x + 4",
+      "y = 4x − 1"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "¿En qué punto corta al eje Y la recta y = 4x − 2?",
+    "opciones": [
+      "(−2,0)",
+      "(0,−2)",
+      "(0,4)",
+      "(4,0)"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "¿Cuál es la pendiente de una recta horizontal, como y = 5?",
+    "opciones": [
+      "0",
+      "1",
+      "5",
+      "No está definida"
+    ],
+    "correcta": 0
+  },
+  {
+    "texto": "Una recta pasa por los puntos (0,−1) y (2,3). ¿Cuál es su ecuación? Ecuaciones de apoyo: m = (y₂ − y₁)/(x₂ − x₁); y = mx + b.",
+    "opciones": [
+      "y = 2x + 1",
+      "y = x − 1",
+      "y = 2x − 1",
+      "y = −2x − 1"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "¿Cuál de los siguientes puntos pertenece a la recta y = 2x + 2?",
+    "opciones": [
+      "(1,3)",
+      "(2,6)",
+      "(0,0)",
+      "(3,7)"
+    ],
+    "correcta": 1
+  }
+]
