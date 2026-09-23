@@ -1,102 +1,102 @@
 [
   {
-    "texto": "Sea la sucesión sₙ = (n + 3)/2. ¿Cuáles son sus cuatro primeros términos?",
+    "texto": "En un curso de 40 estudiantes, 22 practican fútbol (F), 18 practican baloncesto (B) y 10 practican ambos deportes. ¿Cuántos estudiantes pertenecen a F ∪ B?",
     "opciones": [
-      "1, 2, 3, 4",
-      "2, 5/2, 3, 7/2",
-      "2, 3, 4, 5",
-      "1/2, 1, 3/2, 2"
+      "20",
+      "30",
+      "40",
+      "50"
     ],
     "correcta": 1
   },
   {
-    "texto": "Sea la sucesión sₙ = 2/(2n + 1). ¿Cuáles son sus cuatro primeros términos?",
+    "texto": "Con la información del ejercicio anterior: 22 practican fútbol y 10 practican ambos deportes. ¿Cuántos estudiantes practican fútbol pero no baloncesto, es decir F − B?",
     "opciones": [
-      "2/3, 2/5, 2/7, 2/9",
-      "1/3, 1/5, 1/7, 1/9",
-      "2, 1, 2/3, 1/2",
-      "2/2, 2/4, 2/6, 2/8"
-    ],
-    "correcta": 0
-  },
-  {
-    "texto": "La sucesión 0, 2, 4, 6, 8, 10, ... tiene como término general:",
-    "opciones": [
-      "sₙ = 2n",
-      "sₙ = 2(n − 1)",
-      "sₙ = n + 2",
-      "sₙ = n² − 1"
-    ],
-    "correcta": 1
-  },
-  {
-    "texto": "Observa la sucesión 1/2, 1/3, 1/5, 1/9, 1/17, 1/33, ... ¿Cuál expresión la genera?",
-    "opciones": [
-      "sₙ = 1/(n + 1)",
-      "sₙ = 1/(2n)",
-      "sₙ = 1/(2ⁿ⁻¹ + 1)",
-      "sₙ = 1/(2n + 1)"
+      "8",
+      "10",
+      "12",
+      "22"
     ],
     "correcta": 2
   },
   {
-    "texto": "La sucesión sₙ = (n + 3)/2 es:",
+    "texto": "En el mismo curso de 40 estudiantes, 22 practican fútbol, 18 baloncesto y 10 ambos deportes. ¿Cuántos no practican ninguno de los dos deportes, es decir (F ∪ B)ᶜ?",
     "opciones": [
-      "Monótona creciente",
-      "Monótona decreciente",
-      "Constante",
-      "Alternante"
-    ],
-    "correcta": 0
-  },
-  {
-    "texto": "La sucesión sₙ = 2/(2n + 1) es:",
-    "opciones": [
-      "Monótona creciente",
-      "Monótona decreciente",
-      "Constante",
-      "No tiene términos positivos"
-    ],
-    "correcta": 1
-  },
-  {
-    "texto": "Para la sucesión sₙ = 1/(n + 1), ¿cuál de las siguientes afirmaciones es correcta?",
-    "opciones": [
-      "Está acotada inferiormente por 0",
-      "Está acotada inferiormente por 2",
-      "No tiene cota inferior",
-      "Todos sus términos son mayores que 1"
-    ],
-    "correcta": 0
-  },
-  {
-    "texto": "¿Cuál es el límite de la sucesión sₙ = 1/2ⁿ cuando n tiende a infinito?",
-    "opciones": [
-      "1",
-      "2",
-      "0",
-      "+∞"
+      "5",
+      "8",
+      "10",
+      "12"
     ],
     "correcta": 2
   },
   {
-    "texto": "Si los puntos que representan una sucesión se acercan cada vez más al valor L en la recta numérica cuando n aumenta, se interpreta que:",
+    "texto": "De 50 personas, 32 utilizan WhatsApp (W), 25 utilizan Telegram (T) y 15 utilizan ambas aplicaciones. ¿Cuántas personas utilizan Telegram pero no WhatsApp, T − W?",
     "opciones": [
-      "La sucesión es constante desde el primer término",
-      "L es el límite de la sucesión",
-      "La sucesión siempre es creciente",
-      "La sucesión no está acotada"
+      "10",
+      "15",
+      "17",
+      "25"
+    ],
+    "correcta": 0
+  },
+  {
+    "texto": "Con los datos del ejercicio anterior: 32 utilizan WhatsApp, 25 Telegram y 15 ambas aplicaciones. ¿Cuántas personas utilizan solamente una de las dos aplicaciones, es decir W △ T?",
+    "opciones": [
+      "12",
+      "15",
+      "27",
+      "42"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "En un grupo de 60 estudiantes, 35 utilizan transporte público (P), 28 bicicleta (B) y 12 utilizan ambos medios. ¿Cuántos estudiantes utilizan al menos uno de los dos medios, P ∪ B?",
+    "opciones": [
+      "39",
+      "47",
+      "51",
+      "63"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Utilizando la información anterior, si U = 60 y |P ∪ B| = 51, ¿cuántos estudiantes no utilizan ninguno de estos dos medios?",
+    "opciones": [
+      "9",
+      "12",
+      "23",
+      "49"
+    ],
+    "correcta": 0
+  },
+  {
+    "texto": "Se encuestaron 80 personas. A 45 les gustan las películas (P), a 38 les gusta la música (M) y a 20 les gustan ambas. ¿Cuántas personas pertenecen a la diferencia simétrica P △ M?",
+    "opciones": [
+      "20",
+      "43",
+      "63",
+      "83"
     ],
     "correcta": 1
   },
   {
-    "texto": "¿Cuál de las siguientes sucesiones es divergente porque crece sin cota superior?",
+    "texto": "En una institución de 100 estudiantes: 50 practican fútbol (F), 45 baloncesto (B), 40 voleibol (V), 20 practican fútbol y baloncesto, 15 fútbol y voleibol, 10 baloncesto y voleibol, y 5 practican los tres deportes. ¿Cuántos estudiantes practican al menos uno de los tres deportes?",
     "opciones": [
-      "sₙ = 1/2ⁿ",
-      "sₙ = 1/(n + 1)",
-      "sₙ = 1/3ⁿ⁺¹",
-      "sₙ = (n + 1)²"
+      "85",
+      "90",
+      "95",
+      "100"
     ],
-    "correcta": 3
+    "correcta": 2
+  },
+  {
+    "texto": "Con los mismos datos del problema anterior: 20 practican fútbol y baloncesto, 15 fútbol y voleibol, 10 baloncesto y voleibol y 5 practican los tres deportes. ¿Cuántos estudiantes practican exactamente dos deportes, pero no los tres?",
+    "opciones": [
+      "20",
+      "25",
+      "30",
+      "45"
+    ],
+    "correcta": 2
   }
 ]
