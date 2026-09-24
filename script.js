@@ -174,6 +174,7 @@ function mostrarResultadoFinal() {
 
 // ⏹️ detener tiempo total
   clearInterval(temporizadorTotal);
+  
   guardarResultado();  // 👈 ESTA LÍNEA
 
   // 📏 calcular tiempo total FINAL
@@ -304,7 +305,7 @@ const nuevoResultado = {
     grado: gradoEstudiante,
     materia: window.nombrePrueba || "Sin identificar",
     archivo: window.pruebaActual || "",
-    puntuacion: `${puntuación}/${preguntas.length}`,
+   puntuacion: `${puntaje}/${preguntas.length}`,
     correctas: correctas,
     incorrectas: incorrectas,
     tiempo: `${minutos}min${segundos}s`,
