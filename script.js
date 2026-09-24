@@ -316,6 +316,20 @@ const nuevoResultado = {
   resultados.push(nuevoResultado);
 
   localStorage.setItem("resultadosQuiz", JSON.stringify(resultados));
+
+if (typeof window.enviarResultadoFirebase === "function") {
+    window.enviarResultadoFirebase(nuevoResultado)
+        .then(() => {
+            console.log("Resultado enviado a Firebase");
+        })
+        .catch(error => {
+            console.error("Error al guardar en Firebase:", error);
+        });
+} else {
+    console.error("Firebase todavía no está disponible");
+}
+
+  
 }
 
 
