@@ -224,7 +224,11 @@ document.querySelectorAll(".btnTema").forEach(btn => {
   btn.addEventListener("click", async () => {
 
     const archivo = btn.getAttribute("data-json");
-
+    // nuevo ---
+    
+window.pruebaActual = archivo;
+window.nombrePrueba = btn.textContent.trim();
+    
     const confirmar = confirm("¿Deseas iniciar esta prueba?");
     if (!confirmar) return;
 
