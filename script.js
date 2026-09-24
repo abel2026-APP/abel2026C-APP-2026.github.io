@@ -298,14 +298,19 @@ function guardarResultado() {
   const minutos = Math.floor(tiempoTotal / 60);
   const segundos = tiempoTotal % 60;
 
-  const nuevoResultado = {
+ 
+const nuevoResultado = {
     nombre: nombreEstudiante,
-    puntaje: `'${puntaje}/${preguntas.length}`,
+    grado: gradoEstudiante,
+    materia: window.nombrePrueba || "Sin identificar",
+    archivo: window.pruebaActual || "",
+    puntuacion: `${puntuación}/${preguntas.length}`,
     correctas: correctas,
     incorrectas: incorrectas,
-    tiempo: `${minutos} min ${segundos} s`,
-    fecha: new Date().toLocaleString()
-  };
+    tiempo: `${minutos}min${segundos}s`,
+    fecha: new Date().toISOString()
+};
+
 
   let resultados = JSON.parse(localStorage.getItem("resultadosQuiz")) || [];
   resultados.push(nuevoResultado);
