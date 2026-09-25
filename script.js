@@ -199,7 +199,7 @@ function mostrarResultadoFinal() {
      document.getElementById("btnHistorial").style.display = "block";
      document.getElementById("btnHistorial").onclick = mostrarHistorial;
 
-    document.getElementById("btnExportar").style.display = "block";
+   document.getElementById("btnExportar").style.display = "none";
     document.getElementById("btnExportar").onclick = exportarResultados;
 
 
@@ -362,7 +362,7 @@ function mostrarHistorial() {
 }
 
 
-function exportarResultados() {
+function exportarRespuestasIndividuales() {
 
   const claveIngresada = prompt("Ingrese la clave del profesor:");
 
@@ -400,6 +400,62 @@ function exportarResultados() {
   link.click();
   document.body.removeChild(link);
 }
+
+
+async function exportarResultados() {
+    try {
+        const correo = prompt("Correo del profesor:");
+        if (!correo) return;
+
+        const clave = prompt("Contraseña de Firebase:");
+        if (!clave) return;
+
+        await window.iniciarSesionProfesor(correo, clave);
+
+        const resultados = await window.obtenerResultadosFirebase();
+
+        if (resultados.length === 0) {
+            alert("No hay resultados para exportar.");
+            return;
+        }
+
+        const columnas = [
+            "Nombre", "Grado", "Materia", "Archivo",
+            "Puntuacion", "Correctas", "Incorrectas",
+            "Tiempo", "Fecha"
+        ];
+
+        const escapar = valor =>
+            '"' + String(valor ?? "").replace(/"/g, '""') + '"';
+
+        const filas = resultados.map(r => [
+            r.nombre, r.grado, r.materia, r.archivo,
+            r.puntuacion, r.correctas, r.incorrectas,
+            r.tiempo, r.fecha
+        ].map(escapar).join(";"));
+
+        const csv = "\uFEFF" +
+            [columnas.join(";"), ...filas].join("\r\n");
+
+        const blob = new Blob([csv], {
+            type: "text/csv;charset=utf-8;"
+        });
+
+        const url = URL.createObjectURL(blob);
+        const enlace = document.createElement("a");
+
+        enlace.href = url;
+        enlace.download = "Resultados_ICFES_Firebase.csv";
+        enlace.click();
+
+        URL.revokeObjectURL(url);
+
+    } catch (error) {
+        console.error("Error al exportar:", error);
+        alert("No se pudieron descargar los resultados.");
+    }
+}
+
 
 
 
