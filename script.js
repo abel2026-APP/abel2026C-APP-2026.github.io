@@ -428,11 +428,22 @@ async function exportarResultados() {
         const escapar = valor =>
             '"' + String(valor ?? "").replace(/"/g, '""') + '"';
 
-        const filas = resultados.map(r => [
-            r.nombre, r.grado, r.materia, r.archivo,
-            r.puntuacion, r.correctas, r.incorrectas,
-            r.tiempo, r.fecha
-        ].map(escapar).join(";"));
+       
+const filas = resultados.map(r => [
+    r.nombre,
+    r.grado,
+    r.materia,
+    r.archivo,
+    r.puntuacion
+        ? '="' + r.puntuacion + '"'
+        : "",
+    r.correctas,
+    r.incorrectas,
+    r.tiempo,
+    r.fecha
+].map(escapar).join(";"));
+
+      
 
         const csv = "\uFEFF" +
             [columnas.join(";"), ...filas].join("\r\n");
