@@ -429,7 +429,29 @@ async function exportarResultados() {
             '"' + String(valor ?? "").replace(/"/g, '""') + '"';
 
        
-const filas = resultados.map(r => [
+function formatearFecha(fecha) {
+    if (!fecha) return "";
+
+    const fechaConvertida = new Date(fecha);
+
+    if (isNaN(fechaConvertida.getTime())) {
+        return fecha;
+    }
+
+    return new Intl.DateTimeFormat("es-CO", {
+        timeZone: "America/Bogota",
+        day: "2-digit",
+        month: "2-digit",
+        year: "numeric",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: false
+    }).format(fechaConvertida);
+}
+
+
+      const filas = resultados.map(r => [
     r.nombre,
     r.grado,
     r.materia,
@@ -440,7 +462,8 @@ const filas = resultados.map(r => [
     r.correctas,
     r.incorrectas,
     r.tiempo,
-    r.fecha
+   formatearFecha(r.fecha)
+        
 ].map(escapar).join(";"));
 
       
