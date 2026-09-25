@@ -2,16 +2,21 @@
 import { initializeApp } from
   "https://www.gstatic.com/firebasejs/12.4.0/firebase-app.js";
 
-import {
-  getAuth,
-  signInAnonymously
-} from "https://www.gstatic.com/firebasejs/12.4.0/firebase-auth.js";
 
 import {
-  getDatabase,
-  ref,
-  push
+    getAuth,
+    signInAnonymously,
+    signInWithEmailAndPassword
+} from "https://www.gstatic.com/firebasejs/12.4.0/firebase-auth.js";
+
+
+import {
+    getDatabase,
+    ref,
+    push,
+    get
 } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-database.js";
+
 
 // CONFIGURACIÓN DE FIREBASE
 const firebaseConfig = {
@@ -30,7 +35,14 @@ const auth = getAuth(app);
 const db = getDatabase(app);
 
 // AUTENTICACIÓN ANÓNIMA
-const autenticacionLista = signInAnonymously(auth);
+
+const autenticacionLista = auth.authStateReady().then(() => {
+    if (auth.currentUser) {
+        return auth.currentUser;
+    }
+
+    return signInAnonymously(auth);
+});
 
 // ENVIAR RESULTADOS
 window.enviarResultadoFirebase = async function(resultado) {
@@ -40,4 +52,34 @@ window.enviarResultadoFirebase = async function(resultado) {
   await push(referencia, resultado);
 
   console.log("Resultado guardado en Firebase");
+};
+
+
+window.obtenerResultadosFirebase = async function() {
+    const usuario = auth.currentUser;
+
+    if (!usuario || usuario.isAnonymous) {
+        throw new Error("Debes iniciar sesión como profesor.");
+    }
+
+    const referencia = ref(db, "resultadosQuiz");
+    const datos = await get(referencia);
+
+    if (!datos.exists()) {
+        return [];
+    }
+
+    return Object.values(datos.val());
+};
+
+window.iniciarSesionProfesor = async function(correo, clave) {
+    await autenticacionLista;
+
+    const credenciales = await signInWithEmailAndPassword(
+        auth,
+        correo,
+        clave
+    );
+
+    return credenciales.user;
 };
