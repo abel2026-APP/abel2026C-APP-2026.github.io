@@ -457,6 +457,10 @@ async function exportarResultados() {
 }
 
 
+document.getElementById("btnProfesor").addEventListener("click", async () => {
+    await exportarResultados();
+});
+
 
 
 
